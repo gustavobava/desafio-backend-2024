@@ -19,9 +19,9 @@ Aqui estão os requisitos principais para o funcionamento do sistema:
 - Cadastro de usuários: Ambos os tipos de usuários (comuns e lojistas) devem fornecer nome completo, CPF/CNPJ, e-mail e senha. CPF/CNPJ e e-mails devem ser únicos no sistema, permitindo apenas um cadastro por CPF ou endereço de e-mail.
 - Transferências de dinheiro: Usuários comuns podem enviar dinheiro para lojistas e entre si. Lojistas só recebem transferências e não enviam dinheiro para ninguém.
 - Validação de saldo: Antes de efetuar uma transferência, o sistema deve validar se o usuário possui saldo suficiente em sua carteira.
-- Consulta a serviço externo autorizador: Antes de finalizar uma transferência, o sistema deve consultar um serviço externo autorizador. Utilize este [mock](https://run.mocky.io/v3/5794d450-d2e2-4412-8131-73d0293ac1cc) para simular a autorização.
+- Consulta a serviço externo autorizador: Antes de finalizar uma transferência, o sistema deve consultar um serviço externo autorizador. Utilize este [mock](https://run.mocky.io/v3/ac35c88f-f627-42c5-9105-6e83a943a8df) para simular a autorização.
 - Transações reversíveis: Toda transferência deve ser tratada como uma transação, revertendo em caso de inconsistência e devolvendo o dinheiro para a carteira do usuário remetente.
-- Notificação de pagamento: Após o recebimento de um pagamento, tanto o usuário quanto o lojista devem receber uma notificação por e-mail ou SMS. Utilize este [mock](https://run.mocky.io/v3/54dc2cf1-3add-45b5-b5a9-6bf7e7f1f4a6) para simular o envio de notificações.
+- Notificação de pagamento: Após o recebimento de um pagamento, tanto o usuário quanto o lojista devem receber uma notificação por e-mail ou SMS. Utilize este [mock](https://run.mocky.io/v3/6d58afc4-07f7-4f9c-a378-a2b6f6faa0c4) para simular o envio de notificações.
 
 ## Avaliação
 
